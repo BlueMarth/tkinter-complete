@@ -3,7 +3,6 @@ from tkinter import ttk
 
 class App(tk.Tk):
 	def __init__(self, title, size):
-		
 		# main setup
 		super().__init__()
 		self.title(title)
