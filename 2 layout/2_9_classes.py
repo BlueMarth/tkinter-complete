@@ -12,9 +12,10 @@ class App(tk.Tk):
 		# widgets 
 		# self.menu = Menu(self)
 		# self.main = Main(self)
-		#Menu(self)
+		
+		Menu(self)
 		Main(self)
-
+		
 		# run 
 		self.mainloop()
 
@@ -22,7 +23,7 @@ class Menu(ttk.Frame):
 	def __init__(self, parent):
 		super().__init__(parent)
 		self.place(x = 0, y = 0, relwidth = 0.3, relheight = 1)
-
+		
 		self.create_widgets()
 
 	def create_widgets(self):
