@@ -10,8 +10,10 @@ class App(tk.Tk):
 		self.minsize(size[0],size[1])
 
 		# widgets 
-		self.menu = Menu(self)
-		self.main = Main(self)
+		# self.menu = Menu(self)
+		# self.main = Main(self)
+		#Menu(self)
+		Main(self)
 
 		# run 
 		self.mainloop()
